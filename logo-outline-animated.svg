@@ -1,0 +1,31 @@
+<svg width="100"
+    height="100"
+    viewBox="0 0 318 391"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <style>
+        path {
+            stroke-dasharray: 1600;
+            stroke-dashoffset: 1600;
+            animation: dash 2s ease forwards;
+            transform: rotate(0);
+            transform-origin: 50% 59%;
+            opacity: 0;
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: 0;
+                opacity: 1;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <path
+        d="M170.314 262.988C148.856 267.755 128.829 250.589 125.969 229.608C121.202 200.044 145.998 173.819 175.085 170.959C212.279 168.099 243.272 198.141 246.132 235.334C249.468 278.726 211.797 315.918 168.881 317.347C117.383 320.683 73.5156 277.29 70.1795 225.791C68.751 166.663 117.867 116.121 178.425 117.076C244.228 113.264 298.586 171.44 300.491 236.766C300.169 272.671 285.827 307.029 260.525 332.507C235.224 357.984 200.967 372.565 165.065 373.137C84.0028 373.134 17.7248 305.898 17.7275 224.836C17.7306 135.667 78.4505 68.8673 168.878 17.7461"
+        stroke="#d5695f"
+        stroke-width="34"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
